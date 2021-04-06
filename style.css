@@ -1,0 +1,89 @@
+.navbar-brand img{
+    height: 80px;
+}
+.navbar-nav{
+    margin-left: auto;
+
+}
+.text{
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.nav-link{
+    /*text-align: center;*/
+    text-transform: uppercase;
+
+}
+
+.nav-link:hover{
+    color: aqua !important;
+    border-top: aqua solid;
+}
+.navbar-nav a{
+    transition: all 0.5s ease !important;
+}
+.navbar-nav a:hover{
+    background: gray;
+    padding: 10px;
+}
+.carousel-inner .carousel-item{
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.iframe{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.iframe > *{
+    display: block;
+    position:absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    height: 80%;
+    width: 80%;
+
+}
+.quick-link li a{
+    color: white;
+}
+.quick-link li a:hover{
+    color: teal;
+
+}
+.fa{
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50px;
+    margin: 2px;
+    padding: 5px;
+
+}
+.card-img-top{
+    height: 300px;
+    width: 200px;
+
+}
+.card-text{
+    text-align: justify;
+}
+.quick-link a{
+    text-decoration: none;
+}
+.carousel-caption h5{
+    color: black;
+    font-size: 200%;
+}
+.carousel-caption p{
+    color: black;
+    font-weight: bold;
+}
